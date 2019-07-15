@@ -1,0 +1,11 @@
+--1
+select nazwa_obowiazku, imie from pracownicy a1 join prace a2 on a1.id_pracownika = a2.id_pracownika join obowiazki a3 on a2.id_pracy = a3.id_pracy where nazwisko like 
+'Kowalczyk';
+--2
+select a3.nazwa_zmiany, imie, nazwisko from pracownicy a1 join polacz a2 on a1.id_pracownika = a2.id_pracownika join czas_pracy a3 on a2.nazwa_zmiany = a3.nazwa_zmiany;
+--3
+select nazwa_produktu, nazwa_dostawcy, id_magazynu from dostawca natural join produkty natural join magazyn;
+--4
+select NAZWA_ZAMAWIAJCEGO, ilosc, nazwa_produktu, id_magazynu from zamowinia_produktow natural join ilosc natural join produkty natural join magazyn;
+--5
+select id_kierownika, miasto, ulica, nr_budynku from magazyn join adres_magazynu on magazyn.id_magazynu = adres_magazynu.id_magazynu where miasto like 'Katowice';

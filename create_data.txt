@@ -1,0 +1,66 @@
+insert into magazyn
+values(1,1);
+insert into magazyn
+values(2,2);
+insert into magazyn
+values(3,3);
+insert into pracownicy
+values(1,'Konrad','Kowalczyk',1);
+insert into pracownicy
+values(2,'Kamil','Kowalczyk',2);
+insert into pracownicy
+values(3,'Konrad','Valenrod',2);
+insert into czas_pracy
+values('a',8,16);
+insert into czas_pracy
+values('b',16,22);
+insert into adres_magazynu
+values('Polska','Katowice','tysiaclecia','80a',1);
+insert into adres_magazynu
+values('Polska','Chorzow','tysiaclecia','80',2);
+insert into adres_magazynu
+values('Polska','Warszawa','tuszczyna','80b',3);
+insert into prace
+values(1,5000,2000,'szukacz',1);
+insert into prace
+values(2,4000,1000,'zbieracz',3);
+insert into prace
+values(3,3000,2000,'len',2);
+insert into obowiazki
+values('sprzatanie',100,3);
+insert into obowiazki
+values('jedzenie',10,2);
+insert into obowiazki
+values('znajdowanie',1000,1);
+insert into polacz
+values('a',1);
+insert into polacz
+values('b',2);
+insert into polacz
+values('a',3);
+insert into dostawca
+values(1,'Beko');
+insert into dostawca
+values(2,'Bida');
+insert into dostawca
+values(3,'Bogaci');
+insert into produkty
+values(1,'Mleko',1,1);
+insert into produkty
+values(2,'Stal',2,2);
+insert into produkty
+values(3,'Zloto',3,3);
+insert into zamowinia_produktow
+values(1,'1029384','Twoja_farma');
+insert into zamowinia_produktow
+values(2,'a6a65s5','Astek');
+insert into zamowinia_produktow
+values(3,'k94wt9','Bank');
+insert into ilosc
+values(1,1,1000);
+insert into ilosc
+values(2,2,100);
+insert into ilosc
+values(2,3,1010);
+
+
